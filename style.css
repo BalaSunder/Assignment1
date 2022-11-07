@@ -3,6 +3,7 @@
     margin: 0;
     font-family: sans-serif;
 }
-body {
-    background: url(C:\Users\Lenovo\Desktop\Assignment1\Assignment1\KeralaTourism-share-image.jpg);
-}
+    body {
+        background: url('images.jpg') no-repeat;
+        background-size: cover;
+    }
