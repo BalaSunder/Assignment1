@@ -1,43 +1,57 @@
 *{
-    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body{
     margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-Body {  
-    font-family: Calibri, Helvetica, sans-serif;  
-    background-image: url('images');  
-  }  
-  button {   
-         background-color: #4CAF50;   
-         width: 100%;  
-          color: orange;   
-          padding: 15px;   
-          margin: 10px 0px;   
-          border: none;   
-          cursor: pointer;   
-           }   
-   form {   
-          border: 3px solid #f1f1f1;   
-      }   
-   input[type=text], input[type=password] {   
-          width: 100%;   
-          margin: 8px 0;  
-          padding: 12px 20px;   
-          display: inline-block;   
-          border: 2px solid green;   
-          box-sizing: border-box;   
-      }  
-   button:hover {   
-          opacity: 0.7;   
-      }   
-    .cancelbtn {   
-          width: auto;   
-          padding: 10px 18px;  
-          margin: 10px 5px;  
-      }   
-          
-       
-   .container {   
-          padding: 25px;   
-          background-color: lightblue;  
-      }   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: 250px;
+    color: rgb(114, 3, 3);
+    background: white;
+    }
+    
+    .wrapper{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1140px;
+    min-height: 100vh;
+    display: inline-flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+    }
+    
+    .container{
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: flex;
+    background: transparent;
+    
+    }
+    
+    
+    
+    .login .col-left,
+    .login .col-right{
+    padding: 30px;
+    display: flex;
+    }
+    
+    
+    .login .col-left{
+        width: 60%;
+        clip-path: polygon(0 0, 0% 100%, 100% 0 );
+        background: transparent;
+        }
+    
+        .login .col-right{
+        padding: 60px 30px;
+        width: 50%;
+        margin-left: -10%;
+        }
+        
+        
+        
